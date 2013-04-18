@@ -16,6 +16,23 @@ It contains `twitter-bootstrap` and `jQuery` mainly because I use them. Remove t
 
 It  monitors `src` folder and generate files into `public` folder.
 
+You can also generate files manually with `rake` command:
+
+    bundle install
+    rake
+
+# Test Server
+
+To start web server, `rack` is available:
+
+    rackup
+
+Or, with `-p` option for specifying the port:
+
+    rackup -p <port>
+
+Modify `config.ru` if needed.
+
 # Goal
 
 * Enable to use on Linux, OS X and Windows(Cygwin).
